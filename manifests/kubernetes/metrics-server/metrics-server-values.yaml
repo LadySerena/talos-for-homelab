@@ -1,0 +1,13 @@
+image:
+  tag: v0.7.1
+serviceAccount:
+  create: true
+podDisruptionBudget:
+  enabled: true
+  maxUnavailable: 1
+updateStrategy:
+  rollingUpdate:
+    maxSurge: 1
+    maxUnavailable: 1
+args:
+  - --kubelet-insecure-tls

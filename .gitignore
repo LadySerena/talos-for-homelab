@@ -1,3 +1,4 @@
 secrets/
 *.raw
 rendered/
+charts/
