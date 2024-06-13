@@ -1,4 +1,5 @@
 cluster:
+  allowSchedulingOnControlPlanes: true
   network:
     podSubnets:
       - 10.244.0.0/16
